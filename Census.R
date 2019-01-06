@@ -32,7 +32,7 @@ print(pct_black[1]*100)
 i <- 1
 for(z in census$geo_display) {
   if(z == "ZCTA5 83702") {
-    print(c(z, census$white[i], census$black[i], census$total[1]))
+    print(c(z, census$white[i], census$black[i], census$total[i]))
   }
   i <- i + 1
 }
